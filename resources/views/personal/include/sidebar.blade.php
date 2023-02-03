@@ -7,7 +7,7 @@
             <!-- Add icons to the links using the .nav-icon class
                  with font-awesome or any other icon font library -->
             <li class="nav-item">
-                <a href="{{route('admin.main.index')}}" class="nav-link">
+                <a href="{{route('personal.main.index')}}" class="nav-link">
                     <i class="nav-icon fas fa-th-list"></i>
                     <p>
                         Статистика
@@ -15,34 +15,18 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="{{route('admin.category.index')}}" class="nav-link">
-                    <i class="nav-icon fas fa-th-list"></i>
+                <a href="{{route('personal.liked.index')}}" class="nav-link">
+                    <i class="nav-icon far fa-heart"></i>
                     <p>
-                        Категории
+                        Понравившиеся посты
                     </p>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="{{route('admin.tag.index')}}" class="nav-link">
+                <a href="{{route('personal.comment.index')}}" class="nav-link">
                     <i class="nav-icon fas fa-th-list"></i>
                     <p>
-                        Тэги
-                    </p>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="{{route('admin.post.index')}}" class="nav-link">
-                    <i class="nav-icon fas fa-th-list"></i>
-                    <p>
-                        Посты
-                    </p>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="{{route('admin.user.index')}}" class="nav-link">
-                    <i class="nav-icon fas fa-th-list"></i>
-                    <p>
-                        Пользователи
+                        Комментарии
                     </p>
                 </a>
             </li>

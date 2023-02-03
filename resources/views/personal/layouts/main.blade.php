@@ -57,7 +57,7 @@
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->
-    @include('admin.include.sidebar')
+    @include('personal.include.sidebar')
 
     @yield('content')
     <footer class="main-footer">
